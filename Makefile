@@ -1,7 +1,7 @@
-CXX = g++
+CXX=g++
 CXXFLAGS=
-PREFIX?= /usr
-BINDIR?= $(PREFIX)/bin
+PREFIX=/usr
+BINDIR=${PREFIX}/bin
 
 all: linfo
 
